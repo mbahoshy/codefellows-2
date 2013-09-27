@@ -1,0 +1,79 @@
+body {
+	width:600px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:16px;
+}
+
+#header_wrap {
+	float:left;
+	width:600px;
+	height:60px;
+	background-color:red;
+}
+
+
+#header_wrap h1 {
+	font-size:40px;
+	font-weight:bold;
+	color:white;
+	text-align:center;
+	margin:0px;
+	padding:5px;
+}
+
+#todo_container {
+	float:left;
+	min-height:400px;
+	width:600px;
+	background-color: #d9d9d9;
+}
+
+.todo {
+	background-color: #b8b8b8;
+	width:570px;
+	margin: 10px;
+	padding:5px;
+	height:20px;
+}
+
+.delete {
+	width:20px;
+	float:right;
+	padding:5px;
+	margin-top:-5px;
+}
+
+.delete:hover{
+	background-color: #ff8d8d;
+	border-radius:5px;
+}
+
+#add_task {
+	width:600px;
+	height:25px;
+	margin:5px 0px 5px 0px;
+	float:left;
+}
+
+#add_button {
+	float:right;
+	width:100px;
+	height:22px;
+	background-color: green;
+	border-radius: 5px;
+	color:white;
+	text-align: center;
+	padding-top:3px;
+	font-weight: bold;
+}
+
+#add_button:hover {
+	font-weight: bold;
+	background-color:#68e73c ;
+}
+
+#add_task input {
+	width:480px;
+}
